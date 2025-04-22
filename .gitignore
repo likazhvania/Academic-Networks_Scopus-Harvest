@@ -178,7 +178,6 @@ cython_debug/
 # ─── Secrets ─────────────────────────────────────────────────
 .env                     # local API‑key / env variables file
 
-
 # project run‑time state
 cursor_state.json
 
