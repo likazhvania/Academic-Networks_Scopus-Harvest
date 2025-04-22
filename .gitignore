@@ -178,6 +178,10 @@ cython_debug/
 # ─── Secrets ─────────────────────────────────────────────────
 .env                     # local API‑key / env variables file
 
+
+# project run‑time state
+cursor_state.json
+
 # ─── Data directory (all nested files & sub‑folders) ─────────
 Data/                    # ignores Data/ and everything inside it
 # If Data folders might be created in sub‑dirs too, uncomment:
