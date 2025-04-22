@@ -1,6 +1,5 @@
 # Academic Networks - Scopus Harvest
 
-# Academic Networks – Scopus Harvest  
 *Full‑period metadata dump (2000 – 2024) for collaboration‑network research*
 
 ---
