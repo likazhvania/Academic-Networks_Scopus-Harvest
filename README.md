@@ -1,1 +1,1 @@
-# Academic-Networks_Scopus-Harvest
+# Academic Networks - Scopus Harvest
