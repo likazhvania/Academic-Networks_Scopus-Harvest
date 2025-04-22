@@ -30,6 +30,10 @@ The data will later feed:
 
 ## 3&nbsp;·&nbsp;Repository contents
 
+. ├── harvest_scopus.py # runnable script (cron‑ready) ├── ScopusHarvest.ipynb # exploratory notebook (no secrets, cleared outputs) ├── requirements.txt # minimal dependencies ├── .gitignore # ignores .env, Data/, cursor_state.json, … ├── config.sample.env # template for your own .env └── README.md # this file
+
+Data/ └── raw/ scopus_raw_000001_20250309.jsonl.gz scopus_raw_000002_20250309.jsonl.gz … cursor_state.json
+
 *Each `jsonl.gz` chunk ≈ 50 000 rows.*
 
 ---
