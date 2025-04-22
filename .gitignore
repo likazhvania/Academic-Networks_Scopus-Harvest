@@ -172,3 +172,17 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+
+# ─── Secrets ─────────────────────────────────────────────────
+.env                     # local API‑key / env variables file
+
+# ─── Data directory (all nested files & sub‑folders) ─────────
+Data/                    # ignores Data/ and everything inside it
+# If Data folders might be created in sub‑dirs too, uncomment:
+# **/Data/               # ignore any Data/ at any depth
+
+# ─── Preliminary Jupyter notebook(s) ─────────────────────────
+cleaning.ipynb           # single file
+cleaning*.ipynb          # any variant like cleaning_v2.ipynb
