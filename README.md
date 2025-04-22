@@ -29,3 +29,25 @@ The data will later feed:
 ---
 
 ## 3&nbsp;·&nbsp;Repository contents
+
+*Each `jsonl.gz` chunk ≈ 50 000 rows.*
+
+---
+
+## 4&nbsp;·&nbsp;Quick start
+
+```bash
+# ❶  clone and enter
+git clone https://github.com/<you>/Academic-Networks_Scopus-Harvest.git
+cd Academic-Networks_Scopus-Harvest
+
+# ❷  create virtual environment (optional but recommended)
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+
+# ❸  add your Scopus API key
+cp config.sample.env .env
+echo "SCOPUS_API_KEY=YOUR_KEY_HERE" >> .env
+
+# ❹  run a test pull (100 requests)
+python harvest_scopus.py --max-reqs 100
